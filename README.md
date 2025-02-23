@@ -3,7 +3,7 @@
 It provides :
 - Fraud Detection Services (Sentinel)
 - Financial Guidance (Moneto)
-- Portfolio Management (Future Project)
+- Portfolio Management (Future Project ---> Vigilant)
 
 # FinanceWise :bank:
 
