@@ -25,26 +25,31 @@ FinanceWise is an AI-powered financial platform combining two robust systems:
 ## Key Features ✨
 ### Sentinel Fraud Detection System
 ```json
-Real-time transaction analysis
-- Deep learning model with 99.9% accuracy
-- Suspicious pattern recognition
-- AI-generated risk explanations
+{
+  "Real-time transaction analysis",
+  "Deep learning model with 99.9% accuracy",
+  "Suspicious pattern recognition",
+  "AI-generated risk explanations"
+}
 ```
 
 ### Moneto Financial Advisor
 ```json
-- Llama-3 70B-powered financial guidance
-- Real-time market insights
-- Personalized wealth management
-- Risk assessment strategies
+{
+  "Llama-3 70B-powered financial guidance",
+  "Real-time market insights",
+  "Personalized wealth management",
+  "Risk assessment strategies",
+}
 ```
 
 ### Vigilant Portfolio Manager (Future plans)
 ```json
-- Llama-3 70B-powered financial guidance
-- Real-time market insights
-- Personalized wealth management
-- Risk assessment strategies
+{
+
+  "*** COMING SOON ***"
+
+}
 ```
 
 ## Tech Stack 🛠️
@@ -199,24 +204,6 @@ FinanceWise/
 - Do not commit the `.env` file to version control.
 - For production deployment, set `FLASK_DEBUG=0`.
 
-## Additional Steps for Repository Completion:
-
-1. **Create these files/directories:**
-   - `public/static/images/` (add `architecture.png` and `screenshot.png`)
-   - `LICENSE` file
-   - `.gitignore` (include `.env`, `__pycache__/`, etc.)
-
-2. **Add actual:**
-   - GitHub repository URL
-   - Presentation link
-   - Groq API key instructions
-   - Model files (`scaler.pkl` and `fraud_detection_model.pth`)
-
-3. **Recommended additional content:**
-   - Contribution guidelines
-   - Troubleshooting section
-   - Security documentation
-   - Deployment instructions
 
 
 
