@@ -21,25 +21,26 @@ FinanceWise is an AI-powered financial platform combining two robust systems:
 1. **Sentinel** 🛡️ - Advanced Fraud Detection System
 2. **Moneto** 💬 - Intelligent Financial Advisor
 
-```json
+
 ## Key Features ✨
 ### Sentinel Fraud Detection System
+```json
 - Real-time transaction analysis
 - Deep learning model with 99.9% accuracy
 - Suspicious pattern recognition
 - AI-generated risk explanations
 ```
 
-```json
 ### Moneto Financial Advisor
+```json
 - Llama-3 70B-powered financial guidance
 - Real-time market insights
 - Personalized wealth management
 - Risk assessment strategies
 ```
 
+### Vigilant Portfolio Manager (Future plans)
 ```json
-### Vigilant Portfolio Manager (future plans)
 - Llama-3 70B-powered financial guidance
 - Real-time market insights
 - Personalized wealth management
