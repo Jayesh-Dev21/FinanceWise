@@ -1,3 +1,10 @@
+# FinanceWise 🏦
+ 
+It provides :
+- Fraud Detection Services (Sentinel)
+- Financial Guidance (Moneto)
+- Portfolio Management (Future Project ---> Vigilant)
+
 # FinanceWise :bank:
 
 **Next-Generation Financial Intelligence Platform**  
@@ -8,24 +15,47 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.2-red)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/🤗%20Transformers-4.40.0-yellow)](https://huggingface.co/docs/transformers)
 
+<img src="/screenshots/main.png" alt="Main Page">
 
 ## Overview 💡
 FinanceWise is an AI-powered financial platform combining two robust systems:
 1. **Sentinel** 🛡️ - Advanced Fraud Detection System
 2. **Moneto** 💬 - Intelligent Financial Advisor
 
+
 ## Key Features ✨
 ### Sentinel Fraud Detection System
-- Real-time transaction analysis
-- Deep learning model with 99.9% accuracy
-- Suspicious pattern recognition
-- AI-generated risk explanations
+```json
+{
+  "Real-time transaction analysis",
+  "Deep learning model with 99.9% accuracy",
+  "Suspicious pattern recognition",
+  "AI-generated risk explanations"
+}
+```
+
+<img src="/screenshots/sentinel.png" alt="Sentinel">
 
 ### Moneto Financial Advisor
-- Llama-3 70B-powered financial guidance
-- Real-time market insights
-- Personalized wealth management
-- Risk assessment strategies
+```json
+{
+  "Llama-3 70B-powered financial guidance",
+  "Real-time market insights",
+  "Personalized wealth management",
+  "Risk assessment strategies",
+}
+```
+
+<img src="/screenshots/moneto.png" alt="Moneto">
+
+### Vigilant Portfolio Manager (Future plans)
+```json
+{
+
+  "*** COMING SOON ***"
+
+}
+```
 
 ## Tech Stack 🛠️
 **Backend**  
@@ -37,11 +67,11 @@ FinanceWise is an AI-powered financial platform combining two robust systems:
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 **APIs & Services**  
-![Groq](https://img.shields.io/badge/-Groq-00FF00?style=flat)
+![Groq Cloud Service](https://img.shields.io/badge/-Groq-00FF00?style=flat)
 ![Llama3](https://img.shields.io/badge/-Llama3-7B3F00?style=flat)
 
 **Personal Model**  
- SENTINAL : Self Created
+ SENTINAL : Self-Created and Self Trained
 
 
 ## Prerequisites
@@ -54,8 +84,8 @@ FinanceWise is an AI-powered financial platform combining two robust systems:
 
 1. **Clone repository:**
    ```bash
-   git clone https://github.com/yourusername/financewise.git
-   cd financewise
+   git clone https://github.com/Jayesh-Dev21/FinanceWise.git
+   cd FinanceWise
    ```
 2. **Create virtual environment:**
    ```bash
@@ -144,7 +174,7 @@ Open your browser and navigate to:
 ## Project Structure 📂
 
 ```
-financewise/
+FinanceWise/
 ├── public/                    # Frontend assets
 │   ├── static/                # Static resources
 │   │   ├── css/               # Stylesheets
@@ -160,16 +190,16 @@ financewise/
 
 ## Contributors 👥
 
-- **Jaydeep Pokahriya** – Full Stack Development (Flask Backend + Frontend) and Git Handling
+- **Jaydeep Pokahriya** – Full Web Stack Development (Flask Backend + Frontend) and GitHub Handling
 - **Harsh** – Sentinel AI Model Training & Optimization
-- **Jayesh** – Moneto API Integration & LLM Configuration
+- **Jayesh** – Moneto API Integration & LLM Configuration in Sentinel
 - **Krrish** – Project Presentation & Technical Documentation
 
 
 ## Acknowledgments 🙏
 
 - **Groq**: For ultra-low latency LLM inference
-- **Hugging Face**: For transformer models
+- **Hugging Face**: For transformer models (pre-trained models)
 - **Render**: For reliable cloud hosting
 - **PyTorch Community**: For deep learning framework
 
@@ -178,26 +208,3 @@ financewise/
 - Obtain a Groq API key from Groq Cloud.
 - Do not commit the `.env` file to version control.
 - For production deployment, set `FLASK_DEBUG=0`.
-
-## Additional Steps for Repository Completion:
-
-1. **Create these files/directories:**
-   - `public/static/images/` (add `architecture.png` and `screenshot.png`)
-   - `LICENSE` file
-   - `.gitignore` (include `.env`, `__pycache__/`, etc.)
-
-2. **Add actual:**
-   - GitHub repository URL
-   - Presentation link
-   - Groq API key instructions
-   - Model files (`scaler.pkl` and `fraud_detection_model.pth`)
-
-3. **Recommended additional content:**
-   - Contribution guidelines
-   - Troubleshooting section
-   - Security documentation
-   - Deployment instructions
-
-
-
-
