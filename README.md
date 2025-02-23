@@ -15,8 +15,7 @@ It provides :
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.2-red)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/🤗%20Transformers-4.40.0-yellow)](https://huggingface.co/docs/transformers)
 
-![main](https://github.com/user-attachments/assets/7d28efe1-c7b2-4aca-8a2c-5cbd66012102)
-
+<img src="/screenshots/main.png" alt="Main Page">
 
 ## Overview 💡
 FinanceWise is an AI-powered financial platform combining two robust systems:
@@ -34,7 +33,8 @@ FinanceWise is an AI-powered financial platform combining two robust systems:
   "AI-generated risk explanations"
 }
 ```
-![sentinel](https://github.com/user-attachments/assets/78d2bc40-9d81-43b1-87a9-57a30adf2ac5)
+
+<img src="/screenshots/sentinel.png" alt="Sentinel">
 
 ### Moneto Financial Advisor
 ```json
@@ -45,7 +45,8 @@ FinanceWise is an AI-powered financial platform combining two robust systems:
   "Risk assessment strategies",
 }
 ```
-![moneto](https://github.com/user-attachments/assets/2ccf4ac1-31e8-4ed6-a664-817424aaef02)
+
+<img src="/screenshots/moneto.png" alt="Moneto">
 
 ### Vigilant Portfolio Manager (Future plans)
 ```json
