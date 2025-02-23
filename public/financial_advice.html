@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Moneto</title>
+    <link rel="icon" type="image/x-icon" href="static/images/finance.jpg">
+
+    <link rel="stylesheet" href="static/css/financial.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span>FinanceWise</span> 
+        </div>
+        
+        <!-- Hamburger Button -->
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    
+        <div class="nav-links">
+            <a href="./fraud_detection"><button class="home-btn">SENTINAL</button></a>
+            <a href="/"><button class="home-btn">Home</button></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <h1>💰 Moneto 💰</h1>
+            <p>Your Financial AI Assistant</p>
+        </div>
+        
+        <div id="chat-container">
+            <div id="messages">
+                <div class="bot-message">Hello! I'm Moneto, your financial assistant. How can I help you today?</div>
+            </div>
+            
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Ask me about finance...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/financial.js"></script>
+</body>
+</html>

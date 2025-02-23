@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENTINAL</title>
+    <link rel="icon" type="image/x-icon" href="static/images/fraud.jpg">
+    <link rel="stylesheet" href="static/css/fraud_detection.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span>SENTINAL</span>
+        </div>
+        <div class="nav-links">
+            <a href="./financial_advice"><button class="home-btn">MONETO</button></a>
+            <a href="/"><button class="home-btn">Home</button></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Transaction Fraud Detection</h1>
+        <form id="transactionForm">
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" step="0.01" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="credit_limit">Credit Limit:</label>
+                <input type="number" id="credit_limit" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="use_chip">Chip Used:</label>
+                <select id="use_chip">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="amount_ratio">Amount Ratio:</label>
+                <input type="number" id="amount_ratio" step="0.01" required>
+            </div>
+            
+            <button type="submit">Check Fraud Risk</button>
+        </form>
+        
+        <div id="result" class="hidden">
+            <h2>Detection Result:</h2>
+            <p>Probability: <span id="probability"></span></p>
+            <p>Prediction: <span id="prediction"></span></p>
+            <p id="explanation"></p>
+        </div>
+    </div>
+
+    <script src="/static/js/fraud_detection.js"></script>
+    <script>
+        // Add simple functionality to show/hide result
+        document.getElementById('transactionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const result = document.getElementById('result');
+            result.classList.remove('hidden');
+            
+            // Demo values - would be replaced by actual fraud detection logic
+            const probability = Math.random();
+            document.getElementById('probability').textContent = probability.toFixed(4);
+            
+            const prediction = document.getElementById('prediction');
+            if (probability > 0.5) {
+                prediction.textContent = "Potential Fraud";
+                prediction.className = "fraud";
+                document.getElementById('explanation').textContent = 
+                    "This transaction has been flagged due to unusual amount and missing chip verification.";
+            } else {
+                prediction.textContent = "Legitimate";
+                prediction.className = "safe";
+                document.getElementById('explanation').textContent = 
+                    "This transaction appears to be legitimate based on amount ratio and chip usage.";
+            }
+        });
+    </script>
+</body>
+</html>

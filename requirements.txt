@@ -1,0 +1,10 @@
+flask==3.0.2
+flask-cors==4.0.0
+python-dotenv==1.0.1
+torch==2.2.2
+transformers==4.40.0
+groq>=0.5.0  # Critical fix
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.1.post1
+gunicorn==21.2.0
