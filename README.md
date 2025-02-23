@@ -25,7 +25,7 @@ FinanceWise is an AI-powered financial platform combining two robust systems:
 ## Key Features ✨
 ### Sentinel Fraud Detection System
 ```json
-- Real-time transaction analysis
+Real-time transaction analysis
 - Deep learning model with 99.9% accuracy
 - Suspicious pattern recognition
 - AI-generated risk explanations
