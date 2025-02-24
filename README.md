@@ -33,6 +33,8 @@ FinanceWise is an AI-powered financial platform combining two robust systems:
   "AI-generated risk explanations"
 }
 ```
+***Issues***
+- Trained on Dataset with a 1.29% Fraud Rate, thus resulting in some anomalies which will be rectified in a few updates.
 
 <img src="/screenshots/sentinel.png" alt="Sentinel">
 
