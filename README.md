@@ -192,10 +192,10 @@ FinanceWise/
 
 ## Contributors 👥
 
+- **Harsh Gupta** – Sentinel AI Model Training & Optimization
+- **Jayesh Puri** – Moneto API Integration & LLM Configuration in Sentinel
 - **Jaydeep Pokahriya** – Full Web Stack Development (Flask Backend + Frontend) and GitHub Handling
-- **Harsh** – Sentinel AI Model Training & Optimization
-- **Jayesh** – Moneto API Integration & LLM Configuration in Sentinel
-- **Krrish** – Project Presentation & Technical Documentation
+- **Krrish** – Project Presentation
 
 
 ## Acknowledgments 🙏
